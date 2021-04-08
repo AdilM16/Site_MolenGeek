@@ -1,0 +1,154 @@
+body {
+  margin: 0;
+}
+@font-face {
+  font-family: 'Lexend';
+  src: url(../fonts/Lexend-Thin.ttf) format('truetype');
+}
+a {
+  text-decoration: none;
+  letter-spacing:0.1em;
+  text-transform: uppercase;
+  justify-content: space-around;
+}
+/*****/
+#newsletter {
+  background-color: purple;
+  height: 50px;
+}
+#newsletter img {
+  display: flex;
+  width: 50px;
+  left: 0%;
+  position: absolute;
+  filter: brightness(2);
+}
+
+.logo {
+  width: 20%;
+  border-right:1px solid #dfdfdf;
+}
+
+.logo img {
+  display: inline-block;
+  width: 200px;
+}
+
+#champs_newsletter div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+#champs_newsletter button {
+  background-color: rgb(90, 223, 90);
+  font-size: 12px;
+  padding: 8.5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: rgba(255, 255, 255, 0.76);
+  border-radius: 4px;
+  margin: 3px;
+  border: 0;
+  text-transform: uppercase;
+}
+
+#champs_newsletter input {
+  padding: 8px;
+  margin: 3px;
+  border-radius: 4px;
+  border: 50px;
+  font-style: italic;
+}
+
+#champs_newsletter span {
+  color: white;
+  margin: 3px;
+  font-size: 15px;
+}
+nav {
+  display: flex;
+  border-bottom: solid #dfdfdf 1px;
+}
+nav li {
+  display: inline;
+  margin: 30px;
+}
+.menu {
+  width: 80%;
+}
+.menu>ul {
+  padding-top: 25px;
+}
+.menu> ul > li:last-child {
+  display: inline;
+  border-left: solid 1px #ff0000;
+  padding-left: 80px;
+}
+.menu li:hover{
+  border-bottom: 3px solid #363636;
+}
+#contenu {
+  text-align: justify;
+}
+#contenu h1{
+  font-family: 'Lexend-Thin';
+  font-size: 40px;
+  text-align: center;
+  padding-top: 50px;
+  
+}
+.separateur{
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: 48%;
+  max-width: 50px;
+  border:solid rgb(151, 32, 106) .5px;
+}
+
+#contenu {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 100px;
+}
+#contenu p {
+  font-size: 20px;
+  font-style: bold;
+}
+#contenu p {
+  margin-bottom: 50px;
+}
+
+#contenu li {
+  margin: 20px;
+  font-size: 20px;
+}
+
+#contenu ul {
+  margin-bottom: 50px;
+}
+#contenu h2{
+  font-size: xx-large;
+}
+#section div {
+  margin: 30px;
+}
+#section  {
+  border-bottom: 1px solid #3C3C3C;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+footer{
+  background-color: rgb(55, 52, 52);
+}
+footer p{
+  height: 175px;
+  text-align: center;
+  color: white;
+}
+
